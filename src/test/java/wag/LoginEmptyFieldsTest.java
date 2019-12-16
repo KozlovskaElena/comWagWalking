@@ -17,7 +17,6 @@ public class LoginEmptyFieldsTest extends BaseTest {
         Assert.assertEquals("Required", loginPage.getEmptyInputError(0));
         Assert.assertEquals("Required", loginPage.getEmptyInputError(1));
 
-
-
+        //commit test
     }
 }
