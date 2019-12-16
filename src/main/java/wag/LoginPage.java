@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.util.List;
+
 public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) {
@@ -22,6 +24,9 @@ public class LoginPage extends BasePage {
 
     @FindBy(css = ".LoginForm_alert__3HIOI.bootstrap_alert__1Of9O.bootstrap_alert-warning__1ukSM")
     private WebElement loginErrorMessage;
+
+    @FindBy(css = ".invalid-feedback.d-block")
+    private List<WebElement> loginErrors;
 
     public void inputEmail(String email) {
         wait.until(ExpectedConditions.visibilityOf(emailField));
@@ -41,6 +46,11 @@ public class LoginPage extends BasePage {
     public String getLoginErrorMessage() {
         wait.until(ExpectedConditions.visibilityOf(loginErrorMessage));
         return loginErrorMessage.getText();
+    }
+
+    public String getEmptyInputError(int index) {
+        wait.until(ExpectedConditions.visibilityOf(loginErrors.get(index)));
+        return loginErrors.get(index).getText();
     }
 
 }

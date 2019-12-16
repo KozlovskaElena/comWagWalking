@@ -26,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1UfUKiuqdBSeEjROt9A8kklPHmZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -45,7 +46,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BecomeWalkerAllFieldsMissedTest.testBecomeWalkerAllFieldsMissed">
+  <component name="RunManager" selected="JUnit.LoginEmptyFieldsTest.testLoginEmptyFields">
+    <configuration name="AllFieldsMissedTest.testAllFieldsMissed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="comWagWalking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="wag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="wag" />
+      <option name="MAIN_CLASS_NAME" value="wag.AllFieldsMissedTest" />
+      <option name="METHOD_NAME" value="testAllFieldsMissed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BecomeWalkerAllFieldsMissedTest.testBecomeWalkerAllFieldsMissed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comWagWalking" />
       <extension name="coverage">
@@ -78,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstWalkFreeTest.testFirstWalkFree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginEmptyFieldsTest.testLoginEmptyFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="comWagWalking" />
       <extension name="coverage">
         <pattern>
@@ -87,24 +104,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="wag" />
-      <option name="MAIN_CLASS_NAME" value="wag.FirstWalkFreeTest" />
-      <option name="METHOD_NAME" value="testFirstWalkFree" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IncorrectPasswordTest.testIncorrectPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="comWagWalking" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="wag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="wag" />
-      <option name="MAIN_CLASS_NAME" value="wag.IncorrectPasswordTest" />
-      <option name="METHOD_NAME" value="testIncorrectPassword" />
+      <option name="MAIN_CLASS_NAME" value="wag.LoginEmptyFieldsTest" />
+      <option name="METHOD_NAME" value="testLoginEmptyFields" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginEmptyFieldsTest.testLoginEmptyFields" />
+        <item itemvalue="JUnit.AllFieldsMissedTest.testAllFieldsMissed" />
         <item itemvalue="JUnit.BecomeWalkerAllFieldsMissedTest.testBecomeWalkerAllFieldsMissed" />
         <item itemvalue="JUnit.BecomeWalkerTest.testBecomeWalker" />
         <item itemvalue="JUnit.LoginInvalidPasswordTest.testLoginInvalidPassword" />
-        <item itemvalue="JUnit.FirstWalkFreeTest.testFirstWalkFree" />
-        <item itemvalue="JUnit.IncorrectPasswordTest.testIncorrectPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +149,17 @@
       <updated>1575747080626</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
